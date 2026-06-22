@@ -1,0 +1,129 @@
+# Fase 0 
+import os,time, random
+os.system("cls")
+os.system("color 0a ")
+print("Boas vindas aos jogos mortais")
+time.sleep(3), os.system("cls"), os.system("color 0c ")
+print('''
+      
+      
+      ''')  # adicionar jigsaw 
+
+# Fase 1
+print("Fase 1: Sorteador de numeros, Adivinhe o número de 1 a 3! ")
+sorteio1= random.randint(1, 3)
+Resposta1 = int(input("Digite o numero sorteado: "))
+if Resposta1 == sorteio1:
+    print("Acertou, próxima fase!")
+else:
+    print("Errou!, burrão, morreu!")
+    print('''
+   _____
+  /     \\
+ | () () |
+  \\  ^  /
+   |||||
+   |||||
+
+''')
+    quit()
+time.sleep(3), os.system("cls")
+
+# Fase 2
+print ("Fase 2: Potenciação, Responda corretamente ou...")
+os.system("cls")
+Numero1 = random.randint(1, 10) 
+Numero2 = random.randint(1, 10) 
+
+Resultado2 = (Numero1**Numero2)
+print (f"qual é o resutlado de {Numero1} elevado a {Numero2}? Responda corretamente ou...")
+Resposta2 = int(input("Digite sua resposta ou...: "))
+if Resposta2 == Resultado2:
+  print ("Parabéns, você passou para a próxima fase!")
+else:
+  print ('''Resposta incorreta. Marcao apareceu do nada e te deu um tiro na cabeça. Você morreu.
+         
+ ,______________________________________       
+|_________________,----------._ [____]  ""-,__  __....-----=====
+               (_(||||||||||||)___________/   ""                |
+                  `----------'  marcao[ ))"-,                   |
+                                       ""    `,  _,--....___    |
+                                               `/           """"
+
+
+         
+ '''),quit()
+time.sleep(2), os.system("cls")
+# Fase 3
+print("Aguarde ... "), time.sleep(2), os.system("cls")
+print("Fase 3: Resolva ou morra!"),  time.sleep(2), os.system("cls")
+print("Resvola a expressão: Resposta da Fase 1 + Resposta da Fase 2 na potenciação da resposta da Fase 1 - Fase 2")
+Resposta3 = int(input("Digite sua resposta ou...: "))
+Resultado3 = (Resposta1 + Resposta2)**(Resposta1 - Resposta2)
+if Resposta3 == Resultado3:
+    print("Uau, você conseguiu passar, parabéns!")
+else:
+    print("Resposta incorreta, uma bomba apareceu do nada e explodiu. Você morreu.")
+    print('''              . . .                         
+              \|/                          
+            `--+--'                        
+              /|\                          
+             ' | '                         
+               |                           
+               |                           
+           ,--'#`--.                       
+           |#######|                       
+        _.-'#######`-._                    
+     ,-'###############`-.                 
+   ,'#####################`,               
+  /#########################\              
+ |###########################|             
+|#############################|            
+|#############################|            
+|#############################|            
+|#############################|            
+ |###########################|             
+  \#########################/              
+   `.#####################,'               
+     `._###############_,'                 
+        `--..#####..--'
+    '''), quit() 
+
+# Fase 4
+os.system("cls"),
+sorteio1de5 = random.randint (1,150)
+sorteio2de5 = random.randint (1,150)
+sorteio3de5 = random.randint (1,150)
+sorteio4de5 = random.randint (1, 150)
+sorteio5de5 = random.randint (1,150)
+
+
+
+print (f"Olhe com atencao... {sorteio1}, {sorteio2de5} , {sorteio3de5} , { sorteio4de5} , {sorteio5de5}") , time.sleep(2), os.system("cls")
+Resultado4 = sorteio1de5 , sorteio2de5 , sorteio3de5 , sorteio4de5 , sorteio5de5
+
+Resposta4 = int(input("Digite os números mostrados em ordem e passe para a próxima fase, caso o contrário...: "))
+if Resultado4 == Resposta4 :
+   print ("Essa foi por pouco, mas voce passou para a proxima fase")
+else:
+   print ('''      VOCE FALHOU!!!
+
+                   _             _            _            _            _      
+        _\ \          /\ \         / /\         /\ \         /\ \    
+       /\__ \        /  \ \       / /  \       /  \ \       /  \ \   
+      / /_ \_\      / /\ \ \     / / /\ \__   / /\ \ \     / /\ \ \  
+     / / /\/_/     / / /\ \ \   / / /\ \___\ / / /\ \_\   / / /\ \_\ 
+    / / /         / / /  \ \_\  \ \ \ \/___// /_/_ \/_/  / / /_/ / / 
+   / / /         / / /   / / /   \ \ \     / /____/\    / / /__\/ /  
+  / / / ____    / / /   / / /_    \ \ \   / /\____\/   / / /_____/   
+ / /_/_/ ___/\ / / /___/ / //_/\__/ / /  / / /______  / / /\ \ \     
+/_______/\__\// / /____\/ / \ \/___/ /  / / /_______\/ / /  \ \ \    
+\_______\/    \/_________/   \_____\/   \/__________/\/_/    \_\/    
+                                                                                                                           
+          
+          
+          ''') , quit() 
+   
+   #fase 5 
+
+   
