@@ -1,0 +1,21 @@
+import os, random
+os.system( "cls")
+
+ #feito com o ASCCI ART
+print ('''
+ ___          _               _         
+/ __| ___ _ _| |_ ___ __ _ __| |___ _ _ 
+\__ \/ _ \ '_|  _/ -_) _` / _` / _ \ '_|                
+|___/\___/_|  \__\___\__,_\__,_\___/_|  
+''')
+
+nmr1 = random.randint(1, 60) 
+nmr2 = random.randint(1, 60)
+nmr3= random.randint(1, 60)
+nmr4 = random.randint(1, 60)
+nmr5 = random.randint(1, 60)
+nmr6 = random.randint(1, 60)
+
+print (f"os números sorteados sao: {nmr1}, {nmr2}, {nmr3}, {nmr4}, {nmr5}, {nmr6} ")
+
+print (f"o numero da sorte é {random.rand}") 
